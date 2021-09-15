@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
     <style>
         *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;        
+            padding: 0;margin: 0;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;        
         }
         .header
         {
@@ -99,22 +96,10 @@
              z-index: -100;
         }
         
-            #chk:checked ~ .side-bar
-            {
-                left: 0;
-            }
-            #chk:checked ~ .show-btn
-            {
-                opacity: 0;
-            }
-            #chk:checked ~ .hide-btn
-            {
-                opacity: 1;
-            }
-            #chk:checked ~ .main-content
-            {
-                width: 80%;
-            }
+            #chk:checked ~ .side-bar{left: 0;}
+            #chk:checked ~ .show-btn{opacity: 0;}
+            #chk:checked ~ .hide-btn{opacity: 1;}
+            #chk:checked ~ .main-content{width: 80%;}
         .main-content
         {
             float: right;
@@ -224,31 +209,17 @@
              z-index: -100;
         }
         
-            #chk:checked ~ .side-bar
-            {
-                left: 0;
-            }
-            #chk:checked ~ .show-btn
-            {
-                opacity: 0;
-            }
-            #chk:checked ~ .hide-btn
-            {
-                opacity: 1;
-            }
-            #chk:checked ~ .content
-            {
-                width: 80%;
-            }
+            #chk:checked ~ .side-bar{left: 0;}
+            #chk:checked ~ .show-btn{opacity: 0;}
+            #chk:checked ~ .hide-btn{opacity: 1;}
+            #chk:checked ~ .content{width: 80%;}
         }
     </style>
    
   <body>
     <div class="header">
         <img
-        src="./images.html/fullstacklogo.png"
-        alt=""
-      />
+        src="./images.html/fullstacklogo.png"alt=""/>
         <h2>FULLSTACK</h2>
     </div>
         <input type="checkbox"  id="chk">
